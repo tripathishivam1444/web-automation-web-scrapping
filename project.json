@@ -1,0 +1,77 @@
+{
+  "name": "email",
+  "description": "Blank Process",
+  "main": "Main.xaml",
+  "dependencies": {
+    "ActivitiesReadEmailToPdf": "[1.0.0.9]",
+    "AddPageNumbersToPDF.Activities": "[1.0.0]",
+    "BitMiracle.Docotic.Pdf": "[7.5.11645]",
+    "ExceltoPDFConversion.Activities": "[1.1.7]",
+    "ExceltoPDFConversionActivities": "[1.1.5]",
+    "ImagetoPdf.Activities": "[1.0.4]",
+    "ImageToPDFConverter.Activities": "[1.0.1]",
+    "Pdf.Text.Activities": "[1.0.1]",
+    "PDF_Activities": "[1.0.2]",
+    "UiPath.AddPicturetoPDF.Activities": "[1.1.0]",
+    "UiPath.Excel.Activities": "[2.10.4]",
+    "UiPath.GoogleCloud.Activities": "[1.0.1]",
+    "UiPath.GoogleVision.Activities": "[1.2.1]",
+    "UiPath.IntelligentOCR.Activities": "[4.14.2-preview]",
+    "UiPath.Mail.Activities": "[1.10.4]",
+    "UiPath.OCR.Activities": "[3.0.0]",
+    "UiPath.OCR.Contracts": "[2.7.3]",
+    "UiPath.PDF.Activities": "[3.4.0]",
+    "UiPath.System.Activities": "[21.4.0]",
+    "UiPath.UIAutomation.Activities": "[21.4.3]",
+    "UiPath.Vision": "[3.0.1]",
+    "UiPathTeam.ActivitiesReadEmailToPdf": "[1.0.0.2]",
+    "UiPathTeam.ImageActionAutoCroppActivities": "[1.0.0]",
+    "UiPathTeam.ImagesToPDF.Activities": "[1.0.0]",
+    "UiPathTeam.OCRExtractors.Activities": "[1.0.0.6]",
+    "UiPathTeam.PDF.Extensions.Activities": "[2.4.0]",
+    "UiPathTeam.PDFRedaction.Activities": "[2.0.0]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "20.10.0.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "isPausable": true,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [],
+    "modernBehavior": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "c941036a-8142-4cca-b76f-06d0f79b8990",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {}
+}
